@@ -23,6 +23,7 @@ h1 a, h1, h2, h3, .article-text{
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .header-menu a{
     padding-left: 32px;
@@ -88,7 +89,7 @@ article h1 a{
 }
 .article-text{
     font-size: 36px;
-    width: 30%;
+    width: 31%;
     height: 195px;
     overflow: hidden;
 }
@@ -140,8 +141,12 @@ article{
     padding-top: 5px;
 }
 .article-main .article-text{
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 270px;
+    font-size: 24px;
+    font-weight: 400;
+    width: 33%;
 }
 aside{
     background-color: #eb7b61;
@@ -160,6 +165,8 @@ aside h2{
     font-weight: 400;
     color: white;    
     font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    margin: 0 auto;
 }
 .subscribe-text2{
     font-size: 14px;
@@ -170,7 +177,7 @@ aside h2{
     margin-top: 40px;
     width: 280px;
     height: 36px;
-    border: 3px solid white;
+    border: 3px solid #ffd9d1;
     display: block;
     text-align: center;
     margin: 45px auto 0;
@@ -181,7 +188,7 @@ aside h2{
     background-color: #eb7b61;
     border: none;
     padding: 0 0;
-    color: white;
+    color: #ffd9d1;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -201,7 +208,7 @@ aside h2{
 }
 .subscribe-text2{
     margin: 30px auto 0;
-    width: 58%;
+    width: 65%;
 }
 .article-slim1{
     background: url(./img/square4-bg.jpg) no-repeat center center;
@@ -216,7 +223,7 @@ aside h2{
     background: url(./img/square5-bg.jpg) no-repeat center center;
 }
 .article-slim1 h2, .article-slim2 h2{
-    margin-top: 120px;
+    margin: 120px auto 0 auto;
     font-size: 36px;
     font-weight: 700;
 }
